@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.comentariorelato_movil.ui.home.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.example.comentariorelato_movil.ui.gallery.GalleryFragment"-->
+<!--        android:label="@string/edit_relato"-->
+<!--    />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.comentariorelato_movil.ui.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/agg_relato"-->
+<!--        />-->
+
+    <activity
+        tools:layout="@layout/fragment_slideshow"
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.comentariorelato_movil.RegistroComentarioRelato"
+        android:label="RegistroComentarioRelato" />
+    <activity
+        tools:layout="@layout/fragment_gallery"
+        android:id="@+id/nav_gallery"
+        android:name="com.example.comentariorelato_movil.Edit_DeletComentarioRelato"
+        android:label="Edit_DeletComentarioRelato" />
+
+
+    <fragment
+        tools:layout="@layout/fragment_iniciosesion"
+        android:id="@+id/nav_iniciosession"
+        android:name="com.example.comentariorelato_movil.iniciosession"
+        android:label="iniciosession" />
+    <fragment
+        tools:layout="@layout/fragment_registro"
+        android:id="@+id/nav_registro"
+        android:name="com.example.comentariorelato_movil.registro"
+        android:label="registro" />
+
+    <activity
+        android:id="@+id/nav_Buscargps"
+        tools:layout="@layout/fragment_gps"
+        android:name="com.example.comentariorelato_movil.Main_Activity_gps"
+        android:label="Main_Activity_gps" />
+    <activity
+        android:id="@+id/nav_camera"
+        tools:layout="@layout/fragment_camera"
+        android:name="com.example.comentariorelato_movil.MainCamera"
+        android:label="MainCamera" />
+
+</navigation>

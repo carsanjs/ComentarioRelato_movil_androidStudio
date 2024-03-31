@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "833696110243",
+    "firebase_url": "https://comentariorelato-21354-default-rtdb.firebaseio.com",
+    "project_id": "comentariorelato-21354",
+    "storage_bucket": "comentariorelato-21354.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833696110243:android:cc50c4f532ef1f5a511116",
+        "android_client_info": {
+          "package_name": "com.example.comentariorelato_movil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833696110243-eomqv423fposbr6cv6qknv0qorbg13pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzS5-QfwKtwGayh5kM3Sj7Qce1zlk1Azc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833696110243-eomqv423fposbr6cv6qknv0qorbg13pd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

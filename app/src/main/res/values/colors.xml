@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#005889</color>
+    <color name="purple_200">#3F51B4</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dymanic_neutral_10">#2E3133</color>
+    <color name="dymanic_neutral_60">#8F9193</color>
+    <color name="material_dynamic_primary70">#7f0501de</color>
+    <color name="blue_in">#2F3CE2</color>
+    <color name="bluee_principal">#3F51B5</color>
+    <color name="blue_infacebook">#1877f2</color>
+    <color name="dynamic_neutral_90">#E1E3E5</color>
+    <color name="green_btncounts">#36a420</color>
+    <color name="btn_red_radius">#F44336</color>
+    <color name="btn_BLue_radius">#F44336</color>
+
+</resources>

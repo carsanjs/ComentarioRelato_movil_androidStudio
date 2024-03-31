@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        android:menuCategory="secondary"
+        android:title="@string/m_opciones">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Inicio"></item>
+
+        <item
+            android:icon="@drawable/editar"
+            android:id="@+id/nav_gallery"
+            android:title="@string/edit_relato"></item>
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/publicar"
+            android:title="@string/agg_relato"></item>
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/camera"
+            android:title="@string/camera"></item>
+        <item
+            android:id="@+id/nav_Buscargps"
+            android:icon="@drawable/gpsicon"
+            android:title="@string/milocation"></item>
+    </group>
+</menu>
